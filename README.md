@@ -9,8 +9,15 @@ conda activate yolov4-cpu
 # Tensorflow GPU
 conda env create -f conda-gpu.yml
 conda activate yolov4-gpu
-Pip
-(TensorFlow 2 packages require a pip version >19.0.)
+
+
+# Tensorflow GPU
+# TensorFlow CPU
+pip install -r requirements.txt
+
+# TensorFlow GPU
+pip install -r requirements-gpu.txt
+
 
 # TensorFlow CPU
 pip install -r requirements.txt
